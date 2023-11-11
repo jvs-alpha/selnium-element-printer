@@ -58,6 +58,7 @@ driver = webdriver.Chrome()
 # Open a webpage
 url = "https://example.com"  # Replace with the URL of the webpage you want to use
 driver.get(url)
+waitdriver = WebDriverWait(driver, 10)
 
 try:
     print("Please click on an element on the webpage.")
