@@ -60,6 +60,10 @@ url = "https://example.com"  # Replace with the URL of the webpage you want to u
 driver.get(url)
 waitdriver = WebDriverWait(driver, 10)
 
+# User Code Start
+
+# User Code End
+
 try:
     print("Please click on an element on the webpage.")
 
